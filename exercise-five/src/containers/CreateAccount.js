@@ -1,8 +1,12 @@
 import React from 'react'; 
-function CreateAccount(){
+
+import CreateAccountForm from "../components/CreateAccountForm";
+
+function CreateAccount({CreateAccountFunction}){
     return (
     <div>
         Create Account
+        <CreateAccountForm CreateAccountFunction={CreateAccountFunction}/>
     </div>
     );
 }
