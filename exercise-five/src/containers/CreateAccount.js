@@ -5,7 +5,7 @@ import CreateAccountForm from "../components/CreateAccountForm";
 function CreateAccount({CreateAccountFunction}){
     return (
     <div>
-        Create Account
+        <h1> Create Account</h1>
         <CreateAccountForm CreateAccountFunction={CreateAccountFunction}/>
     </div>
     );
